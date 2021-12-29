@@ -22,16 +22,19 @@ const Services = () => {
           class='dropdown-menu w-100 mt-3'
           aria-labelledby='dropdownMenuButton1'
         >
+          {/* if you click on Office it will take you to Office page */}
           <li onClick={() => history.push('/office')}>
             <a class='dropdown-item fs-3 drop' href='#'>
               Office
             </a>
           </li>
+          {/* if you click on Household it will take you to Household page */}
           <li onClick={() => history.push('/household')}>
             <a class='dropdown-item fs-3' href='#'>
               Household
             </a>
           </li>
+          {/* if you click on Commercial it will take you to Commercial page */}
           <li onClick={() => history.push('/commercial')}>
             <a class='dropdown-item fs-3' href='#'>
               Commercial

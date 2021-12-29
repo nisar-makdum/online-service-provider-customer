@@ -64,6 +64,7 @@ const Commercial = () => {
             {janitorNum === 1 ? (
               ''
             ) : (
+              /* if you click on the numbers it will take you to schedule page */
               <li
                 value={1}
                 class='dropdown-item fs-5 drop'

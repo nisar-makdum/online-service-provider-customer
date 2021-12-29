@@ -11,6 +11,7 @@ const Navbar = () => {
     <nav class='navbar navbar-dark navbar-expand-lg nav-Bg text-light fixed-top p-0'>
       <div class='container-fluid mx-md-5 mx-0'>
         <div className='d-flex justify-content-center align-items-center'>
+          {/* if you click on image it will take you to Homepage */}
           <img
             onClick={() => history.push('/home')}
             src={logo}

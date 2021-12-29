@@ -40,19 +40,22 @@ const Schedule = () => {
           data-bs-toggle='dropdown'
           aria-expanded='false'
         >
-          Dropdown button
+          Subscription
         </button>
         <ul class='dropdown-menu fs-3' aria-labelledby='dropdownMenuButton1'>
+          {/* if you click on the Daily Subscription it will take you to Daily Subscription page  */}
           <li onClick={() => history.push('/daySub')}>
             <a class='dropdown-item' href='#'>
               Daily Subscription
             </a>
           </li>
+          {/* if you click on the Weekly Subscription it will take you to Weekly Subscription page  */}
           <li onClick={() => history.push('/weeklySub')}>
             <a class='dropdown-item' href='#'>
               Weekly Subscription
             </a>
           </li>
+          {/* if you click on the Monthly Subscription it will take you to Weekly Monthly page  */}
           <li onClick={() => history.push('/monthlySub')}>
             <a class='dropdown-item' href='#'>
               Monthly Subscription

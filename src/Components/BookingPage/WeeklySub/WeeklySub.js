@@ -22,6 +22,7 @@ const WeeklySub = () => {
             package.
           </p>
           <p>Payment should be done at the end of work.</p>
+          {/* if you click on the Pay Now button it will take you to Confirmation page  */}
           <button
             onClick={() => history.push('/Confirmation')}
             className='btn btn-outline-danger btn-lg fs-3'
